@@ -1,5 +1,7 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Twinkle+Star&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -8,7 +10,7 @@
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
   --hue: 152;
-  --first-color: hsl(var(--hue), 24%, 32%);
+  --first-color: hsl(var(--hue), 40%, 32%);
   --first-color-alt: hsl(var(--hue), 24%, 28%);
   --first-color-light: hsl(var(--hue), 24%, 66%);
   --first-color-lighten: hsl(var(--hue), 24%, 92%);
@@ -208,9 +210,11 @@ the website, in dark theme
 }
 
 .nav__logo{
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: -1px;
+  /* text-transform: uppercase; */
+  font-family: 'Twinkle Star', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  /* letter-spacing: -1px; */
   display: inline-flex;
   align-items: center;
   column-gap: .5rem;
@@ -467,7 +471,7 @@ the website, in dark theme
   background-color: var(--first-color-alt);
   color: #FFF;
   padding: .5rem .75rem;
-  border-radius: .25rem;
+  border-radius: .75rem;
   font-size: var(--h2-font-size);
   margin-bottom: var(--mb-1-5);
   transition: .3s;
@@ -723,13 +727,15 @@ the website, in dark theme
 }
 
 .footer__logo{
+  font-family: 'Twinkle Star', sans-serif;
+  font-size: 26px;
+  font-weight: 400;
   display: inline-flex;
   align-items: center;
   column-gap: .5rem;
   color: var(--title-color);
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: -1px;
+  /* text-transform: uppercase; */
+  /* letter-spacing: -1px; */
   margin-bottom: var(--mb-2-5);
   transition: .3s;
 }
